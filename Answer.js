@@ -14,12 +14,7 @@ let result3 = describeValue("0");
 let result4 = describeValue(null);
 let result5 = describeValue(undefined);
 
-console.log(result);
-console.log(result2);
-console.log(result3);
 
-console.log(result4);
-console.log(result5);
 
 //questions 2
 
@@ -61,8 +56,7 @@ const getDayType = (value) => {
 
 let weekendresult = getDayType("Saturday");
 let weekendresult2 = getDayType("Sunday");
-console.log(weekendresult);
-console.log(weekendresult2);
+
 
 //questions 3
 const validateUserName = (value) => {
@@ -115,8 +109,6 @@ let getcngfare1 = getcngfare(2);
 
 let getcngfare2 = getcngfare(5, true, 10);
 
-console.log(getcngfare1);
-console.log(getcngfare2);
 
 //questions 5
 
@@ -144,7 +136,4 @@ let cricketscore1 = getChaseVerdict(200, 190, 0);
 let cricketscore2 = getChaseVerdict(150, 149, 1);
 let cricketscore3 = getChaseVerdict(100, 70, 12);
 
-console.log(cricketscore);
-console.log(cricketscore1);
-console.log(cricketscore2);
-console.log(cricketscore3);
+
